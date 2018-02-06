@@ -46,6 +46,8 @@ public class HomePage extends TestBase {
 		String userStatusTxt = userStatusMessage.getText();
 		System.out.println(userStatusTxt);
 		return userStatusTxt;
+		
+		
 	}
 	public ContactsPage clickOnContactsLink() throws InterruptedException {
 		//driver.switchTo().frame("mainpanel");
